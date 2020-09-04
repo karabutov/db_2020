@@ -2,8 +2,15 @@ package radio_alarm_clock;
 
 public class RadioAlarmClock {
 
-    private Radio radio = new RadioImpl();
-    private AlarmClock alarmClock = new AlarmClockImpl();
+    private Radio radio;
+
+    private AlarmClock alarmClock;
+
+    public RadioAlarmClock(Radio radio, AlarmClock alarmClock) {
+        this.radio = radio;
+        this.alarmClock = alarmClock;
+    }
+
 
     public void turnOfAlarm() {
         alarmClock.turnOfAlarm();
