@@ -11,7 +11,7 @@ public class RadioImpl implements Radio {
     }
 
     @Override
-    public void toggle() {
+    public void turnRadio() {
         isEnabled = !isEnabled;
     }
 

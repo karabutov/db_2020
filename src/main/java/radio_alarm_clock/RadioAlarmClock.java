@@ -17,8 +17,8 @@ public class RadioAlarmClock {
         radio.setRadioWave(radioWave);
     }
 
-    public void toggle() {
-        radio.toggle();
+    public void turnRadio() {
+        radio.turnRadio();
     }
 
 }
